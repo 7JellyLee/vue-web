@@ -1,12 +1,5 @@
 <template>
   <div>
-    <div class="logo">
-      <a href="index.html">
-        <img class src="../assets/images/logo.png" alt />
-        <h2>Dune</h2>
-      </a>
-    </div>
-
     <div class="menu_icon" id="mynav">
       <p onclick="openNav()">&#9776;</p>
     </div>
@@ -16,7 +9,7 @@
         <!--     Logo start  -->
         <div class="logo_over hidden-xs">
           <a href="index.html">
-            <img src="images/logo.png" alt />
+            <img src="../assets/images/logo.png" alt />
             <h2>Dune</h2>
           </a>
         </div>
@@ -24,36 +17,37 @@
         <!--   menu start  -->
         <ul id="menu">
           <li data-menuanchor="page1" class="active">
-            <a onclick="closeNav()" href="#page1">HOME</a>
+            <a onclick="closeNav()" href="/Home">主页</a>
           </li>
           <li data-menuanchor="page2">
-            <a onclick="closeNav()" href="#page2">PORTFOLIO</a>
+            <a onclick="closeNav()" href="#/About">ABOUT</a>
           </li>
           <li data-menuanchor="page3">
-            <a onclick="closeNav()" href="#page3">ABOUT</a>
+            <a onclick="closeNav()" href="#/Section1">页面1</a>
           </li>
           <li data-menuanchor="page4">
-            <a onclick="closeNav()" href="#page4">SERVICES</a>
+            <a onclick="closeNav()" href="#/Section2">页面2</a>
           </li>
           <li data-menuanchor="page5">
-            <a onclick="closeNav()" href="#page5">PRICES</a>
+            <a onclick="closeNav()" href="#/Section3">页面3</a>
           </li>
           <li data-menuanchor="page6">
-            <a onclick="closeNav()" href="#page6">BLOG</a>
+            <a onclick="closeNav()" href="#/Section4">页面4</a>
           </li>
           <li data-menuanchor="page7">
-            <a onclick="closeNav()" href="#page7">CONACT</a>
+            <a onclick="closeNav()" href="#/Section5">页面5</a>
+          </li>
+          <li data-menuanchor="page7">
+            <a onclick="closeNav()" href="#/Section6">页面6</a>
+          </li>
+          <li data-menuanchor="page7">
+            <a onclick="closeNav()" href="#/Section7">页面7</a>
+          </li>
+          <li data-menuanchor="page2">
+            <a onclick="closeNav()" href="/about">关于</a>
           </li>
         </ul>
         <!--   menu end  -->
-        <div class="menu_close">
-          <a href="javascript:void(0)" class="closebtn menu_icon" onclick="closeNav()">&times; Close</a>
-        </div>
-      </div>
-      <div class="sidenav_right hidden-xs">
-        <div class="slogan_over">
-          <h3>Dune Photo Studio</h3>
-        </div>
       </div>
     </div>
   </div>
@@ -66,4 +60,8 @@ export default {
 </script>
 
 <style>
+.sidenav {
+  width: 112px;
+  display: inline;
+}
 </style>

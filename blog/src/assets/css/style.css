@@ -8,7 +8,7 @@
     License URI:   http://www.gnu.org/licenses/gpl-3.0.html
     Version:       1.0
 ------------------------------------------------------------
-                
+
         1. General Styles
         2. Preloader Styles
         3. Header Styles
@@ -25,7 +25,7 @@
         14. Pagepilling Styles
         15. Blog & Post Page Styles
         16. Responsive media Styles
-                    
+
 ------------------------------------------------------------*/
 
 
@@ -166,7 +166,7 @@ body #loader-wrapper {
 ------------------------------*/
 
 .logo {
-    left: 2.3%;
+    left: 1.7%;
     position: fixed;
 }
 
@@ -236,8 +236,8 @@ body #loader-wrapper {
 
 #menu li {
     font-size: 10px;
-    font-weight: 400;
-    letter-spacing: 3px;
+    font-weight: 300;
+    letter-spacing: 0px;
     list-style: outside none none;
 }
 
@@ -336,8 +336,8 @@ body #loader-wrapper {
 }
 
 #menu {
-    width: 70%;
-    padding-left: 50px;
+    width: 75%;
+    padding-left: 30px;
     position: absolute;
     text-align: left;
     top: 50%;
@@ -591,7 +591,7 @@ body #loader-wrapper {
     text-align: center;
 }
 
-#filters > li {
+#filters>li {
     display: inline-block;
     padding: 10px 30px 10px 0;
     font-size: 14px;
@@ -600,11 +600,11 @@ body #loader-wrapper {
     cursor: pointer;
 }
 
-#filters > li.active {
+#filters>li.active {
     color: #FFD33E;
 }
 
-#filters > li:hover {
+#filters>li:hover {
     color: #FFD33E;
 }
 
@@ -716,7 +716,7 @@ body #loader-wrapper {
     width: 60%;
 }
 
-#view-single > li {
+#view-single>li {
     display: inline;
     font-size: 14px;
     padding: 5px;
@@ -806,7 +806,7 @@ body #loader-wrapper {
     position: relative;
 }
 
-.about_content_top > h2 {
+.about_content_top>h2 {
     font-size: 36px;
     margin-bottom: 30px;
 }
@@ -815,7 +815,7 @@ body #loader-wrapper {
     color: #FFD33E;
 }
 
-.about_content_top > p {
+.about_content_top>p {
     font-size: 14px;
     line-height: 1.6;
 }
@@ -827,7 +827,7 @@ body #loader-wrapper {
     width: 100px;
 }
 
-.about_content_bottom > h1 {
+.about_content_bottom>h1 {
     float: left;
     font-family: Unna;
     font-size: 60px;
@@ -836,7 +836,7 @@ body #loader-wrapper {
     padding: 0 5px 5px;
 }
 
-.about_content_bottom > p {
+.about_content_bottom>p {
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -913,7 +913,7 @@ body #loader-wrapper {
     overflow-x: hidden;
 }
 
-.about_right > img {
+.about_right>img {
     background-size: cover;
     height: 100vh;
 }
@@ -951,24 +951,24 @@ body #loader-wrapper {
     margin-bottom: 5%;
 }
 
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:focus,
-.nav-tabs > li.active > a:hover {
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: medium none;
     color: #111;
     cursor: default;
 }
 
-.nav > li > a:focus,
-.nav > li > a:hover {
+.nav>li>a:focus,
+.nav>li>a:hover {
     border: medium none;
     color: #555;
     text-decoration: none;
     background: none;
 }
 
-.nav > li > a {
+.nav>li>a {
     display: block;
     padding: 0px;
     position: relative;
@@ -1150,12 +1150,12 @@ body #loader-wrapper {
     margin-bottom: 20px;
 }
 
-.blog_title > h2 {
+.blog_title>h2 {
     float: left;
     font-size: 36px;
 }
 
-.blog_title > a {
+.blog_title>a {
     color: #787878;
     float: right;
     font-size: 16px;
@@ -1506,7 +1506,7 @@ fieldset[disabled] .btn {
     padding: 30px 0 0;
 }
 
-.blog_content > p {
+.blog_content>p {
     padding-top: 10px;
 }
 
@@ -1523,7 +1523,7 @@ span.comment-number {
     float: right;
 }
 
-#blog-social > li {
+#blog-social>li {
     display: inline;
     padding: 0 5px;
 }
@@ -1600,18 +1600,18 @@ span.comment-number {
     margin: 0;
 }
 
-.comments-list > li {
+.comments-list>li {
     padding: 14px 0;
     margin-bottom: 14px;
 }
 
-.comments-list > li:before,
-.comments-list > li:after {
+.comments-list>li:before,
+.comments-list>li:after {
     content: " ";
     display: table;
 }
 
-.comments-list > li:after {
+.comments-list>li:after {
     clear: both;
 }
 
@@ -1621,7 +1621,7 @@ span.comment-number {
     list-style: none;
 }
 
-.comments-list .children > li {
+.comments-list .children>li {
     padding: 14px 14px 0;
 }
 
@@ -1779,7 +1779,7 @@ span.comment-number {
         font-weight: 900;
         padding: 0 25px;
     }
-    .about_right > img {
+    .about_right>img {
         padding: 20px;
         transform: translateY(8%);
         width: 100%;
@@ -1851,7 +1851,7 @@ span.comment-number {
         right: 0;
     }
     #menu {
-    	padding-right: 30px;
+        padding-right: 30px;
         position: absolute;
         text-align: right;
         top: 50%;
@@ -1865,7 +1865,7 @@ span.comment-number {
         margin-top: 5px;
         width: 30%;
     }
-    #mynav > p {
+    #mynav>p {
         margin: 0;
     }
     #section1,
@@ -1899,16 +1899,16 @@ span.comment-number {
         max-width: 190px;
     }
     #lionhero.owl-theme .owl-nav .owl-prev {
-    	margin-left: 5px;
+        margin-left: 5px;
     }
     #lionhero.owl-theme .owl-nav .owl-next {
-    	margin-right: 5px;
+        margin-right: 5px;
     }
     .work_area {
         padding-top: 20px;
     }
     #filters li {
-    	padding-right: 10px;
+        padding-right: 10px;
     }
     .isotope {
         transition-property: height, width;
@@ -1931,10 +1931,10 @@ span.comment-number {
     .more_link {
         display: none
     }
-    .about_right > img {
-	    height: auto;
-	    padding: 0;
-	}
+    .about_right>img {
+        height: auto;
+        padding: 0;
+    }
     .service {
         padding: 10px;
     }
@@ -1991,7 +1991,7 @@ span.comment-number {
     .more_link {
         left: 50%;
     }
-    .blog_title > a {
+    .blog_title>a {
         float: right;
         font-size: 13px;
         font-style: italic;
@@ -2009,16 +2009,16 @@ span.comment-number {
         margin-top: 30px;
         width: 100%;
     }
-    .about_right > img {
+    .about_right>img {
         padding: 20px;
         transform: translateY(8%);
         width: 100%;
     }
-    .client_area > h1 {
+    .client_area>h1 {
         font-size: 22px;
         margin-left: 0;
     }
-    .blog_title > a {
+    .blog_title>a {
         padding-right: 0px;
     }
     .blog_post h1 {
@@ -2079,35 +2079,38 @@ span.comment-number {
         padding-top: 20px;
     }
 }
+
 @media only screen and (max-width: 480px) {
-	.service_icon a,
+    .service_icon a,
     .service_icon {
         width: 50%;
     }
     .quote {
-    	display: none;
+        display: none;
     }
 }
+
 @media only screen and (max-width: 360px) {
-	.blog_title > a {
+    .blog_title>a {
         padding-right: 35%;
     }
-    .text_single, #view-single {
-    	width: 100%;
+    .text_single,
+    #view-single {
+        width: 100%;
     }
     #view-single {
-    	margin: 0 0 20px;
+        margin: 0 0 20px;
     }
     #view-single li:first-child {
-    	padding-left: 0;
+        padding-left: 0;
     }
     #lionportfolio {
-    	margin: 30px 0;
+        margin: 30px 0;
     }
     #lionportfolio.owl-theme .owl-nav .owl-prev {
-    	margin-left: 5px;
+        margin-left: 5px;
     }
     #lionportfolio.owl-theme .owl-nav .owl-next {
-    	margin-right: 5px;
+        margin-right: 5px;
     }
 }
