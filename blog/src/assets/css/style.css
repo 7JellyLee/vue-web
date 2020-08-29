@@ -166,7 +166,7 @@ body #loader-wrapper {
 ------------------------------*/
 
 .logo {
-    left: 1.7%;
+    left: 2.7%;
     position: fixed;
 }
 
@@ -331,12 +331,12 @@ body #loader-wrapper {
 }
 
 .logo_over {
-    width: 70%;
+    width: 95%;
     position: absolute;
 }
 
 #menu {
-    width: 75%;
+    /* width: 80%; */
     padding-left: 30px;
     position: absolute;
     text-align: left;
